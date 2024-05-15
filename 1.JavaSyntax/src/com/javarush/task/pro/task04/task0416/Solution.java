@@ -13,9 +13,9 @@ public class Solution {
        int kola = keyboard.nextInt();
        System.out.println("Количество сотрудников в кабинете: ");
        int sotrudnik = keyboard.nextInt();
-       double sum = 1.*kola/sotrudnik ;
-       System.out.println("Каждому сотруднику достанется банок колы: ");
-       System.out.println(sum);
+       double sum = 1.0*kola/sotrudnik ;
+       System.out.println("Каждому сотруднику достанется банок колы: "+sum);
+
 
 
 
